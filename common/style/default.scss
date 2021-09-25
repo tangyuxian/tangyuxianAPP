@@ -1,0 +1,79 @@
+/*reset.css用来存储清除浏览器的样式 ,后面添加了一部分通用样式*/
+
+a { background-color: transparent; text-decoration: none;-webkit-tap-highlight-color:rgba(0,0,0,0) }
+a:hover { outline: none; text-decoration: none; }
+a,a:hover,a:active,a:visited,a:link,a:focus{
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+outline:none;
+text-decoration: none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-user-modify: read-only;
+cursor: pointer;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+del, ins { text-decoration: none; }
+li { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: baseline; }
+sub { vertical-align: baseline; }
+/*because legend doesn't inherit in IE */
+legend { color: #000; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+*font-size: 100%; outline:none; }
+
+/*select*/
+select{
+/*复写Chrome和Firefox里面的边框*/
+border:1px solid green;
+/*清除默认样式*/
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+/*在选择框的最右侧中间显示小箭头图片*/
+/*background: url(../img/icon/icon_select.png) no-repeat scroll right center transparent;*/
+/*为下拉小箭头留出一点位置，避免被文字覆盖*/
+padding-right: 14px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+/* 个人在后面添加了一些常用的公共样式 */
+/*居中效果*/
+.margin_center { margin: 0px auto; }
+/*浮动*/
+.float_left { float: left; }
+.float_right { float: right; }
+/*文字位置*/
+.text_center { text-align: center; }
+.text_left { text-align: left; }
+.text_right { text-align: right; }
+/*position*/
+.position_relative { position: relative; }
+.position_absolute { position: absolute; }
+/*边框*/
+.no_border { border: 0px!important;border-right: 0px!important; }
+/*宽度*/
+.width_whole { width: 100%; }
+/*清除格式*/
+.clear_both { clear: both; }
+.no_margin { margin: 0px!important; }
+/* 展示样式 */
+.display_block { display: block; }
+.display_none { display: none; }
+.visibility_hidden { visibility: hidden; }
+/*清除浮动*/
+.clearfix:after {content: "";display: block;height: 0;clear: both;visibility: hidden;}
+* html .clearfix{zoom:1;} /* IE6 */
+*+html .clearfix{zoom:1;} /* IE7 */

@@ -1,0 +1,107 @@
+{
+  "id": "2579159",
+  "name": "糖羽仙APP",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2571136",
+      "name": "录音",
+      "font_class": "luyin",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "4510300",
+      "name": "语音撤回",
+      "font_class": "chehui",
+      "unicode": "e904",
+      "unicode_decimal": 59652
+    },
+    {
+      "icon_id": "2187794",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "912286",
+      "name": "表情",
+      "font_class": "biaoqing",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "435922",
+      "name": "键盘",
+      "font_class": "jianpan",
+      "unicode": "e7b2",
+      "unicode_decimal": 59314
+    },
+    {
+      "icon_id": "1027200",
+      "name": "语音-右",
+      "font_class": "yuyinyou",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1027206",
+      "name": "语音-左",
+      "font_class": "yuyinzuo",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "11919491",
+      "name": "拍照",
+      "font_class": "paizhao",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "14478390",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "18042507",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "20032635",
+      "name": "新增",
+      "font_class": "xinzeng",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "172696",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "8765241",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "13808035",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    }
+  ]
+}

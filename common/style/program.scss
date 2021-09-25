@@ -1,0 +1,45 @@
+			.programInfo{
+				.introduce {
+				padding: 30rpx;
+				box-sizing: border-box;
+				background-color: #fff;
+
+				.introduce-logo,
+				.image {
+					width: 130rpx;
+					height: 130rpx;
+				}
+
+				.introduce-main {
+					margin-left: 20rpx;
+					box-sizing: border-box;
+
+					.name {
+						font-size: $uni-font-size-lg;
+						font-weight: bold;
+					}
+				}
+
+			}
+			}
+			
+			.program{
+				.item-program {
+				width: 130rpx;
+				display: block;
+				margin: auto;
+				box-sizing: border-box;
+				padding-bottom: 20rpx;
+				.item-program-cover{
+					width: 100%;
+					.image{
+						width: 130rpx;
+						height: 130rpx;
+					}
+				}
+				.item-program-name{
+					text-align: center;
+				}
+			}
+			}
+			

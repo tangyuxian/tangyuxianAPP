@@ -1,0 +1,179 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "糖羽仙",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#e67249",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+
+		, {
+			"path": "pages/program/program",
+			"style": {
+				"navigationBarTitleText": "小程序",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		}, {
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		},
+		{
+			"path": "pages/chatDetail/chatDetail",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							"float": "right"
+						}]
+
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/chatInfo/chatInfo",
+			"style": {
+				"navigationBarTitleText": "聊天信息",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		},
+		{
+			"path": "pages/chatInfo/chatUserInfo",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		},
+		{
+			"path": "pages/program/programInfo",
+			"style": {
+				"navigationBarTitleText": "小程序信息",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+
+		},
+		{
+			"path": "pages/program/programSearch",
+			"style": {
+				"navigationBarTitleText": "搜索小程序",
+				"enablePullDownRefresh": false,
+				"navigationBarShadow": {
+					"colorType": "orange"
+				}
+			}
+		},
+		{
+			"path": "pages/programDetail/programDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#e67249",
+		"borderStyle": "#e67249",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "/static/images/tab/tab-home.png",
+				"selectedIconPath": "/static/images/tab/tab-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"iconPath": "/static/images/tab/tab-chat.png",
+				"selectedIconPath": "/static/images/tab/tab-active.png",
+				"text": "聊天"
+			},
+			{
+				"pagePath": "pages/program/program",
+				"iconPath": "/static/images/tab/tab-program.png",
+				"selectedIconPath": "/static/images/tab/tab-active.png",
+				"text": "程序"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "糖羽仙",
+		"navigationBarBackgroundColor": "#e67249",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#F8F8F8"
+		}
+	}
+}
