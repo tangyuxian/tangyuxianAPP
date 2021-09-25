@@ -18,7 +18,7 @@
 
 ![](https://cdn.jsdelivr.net/gh/tangyuxian/blog_image@master/PicGo/202109252027733.png)
 
-**安卓版本**:[点击此处获取最新APP(BETA 1.0.3)](https://gitee.com/tangyuxian/APP/raw/master/android/tangyuxian_beta_1.0.3.apk)
+**安卓版本**:[点击此处获取最新APP(BETA 1.0.3)](http://cdn.tangyuxian.com/tangyuxian_beta_1.0.3.apk)
 
 **苹果版本**:(正在完善,敬请期待)
 
